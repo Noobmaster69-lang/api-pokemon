@@ -19,16 +19,18 @@ const HomePage = () => {
   }
 
   return (
-    <div>
-        <h1>Pokedex</h1>
+    
+    <div  >
+        <h1>Pokedex </h1>
         <h2>Hi Trainer</h2>
-        <p>To start, please, enter your trainer name</p>
+        <p id="p1" >To start, please, enter your trainer name</p>
         <form onSubmit={handleTrainer}> 
             <input ref={inputTrainer} type="text" />
             <button>Start!</button>
-        </form>
+        </form> 
     </div>
   )
 }
+
 
 export default HomePage
