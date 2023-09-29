@@ -8,7 +8,7 @@ import ProtectedRoutes from './pages/ProtectedRoutes'
 function App() {
 
   return (
-    <div>
+    <div >
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route element={<ProtectedRoutes />}>

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+body {  
+    margin: 0;
+}
+h1, h3, h4, ul, hr,button, input {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ h2 {
+    display: flex;
+    margin-bottom: 5rem;
+    margin-top: 4rem;
+    padding: 2.5rem;
+    font-size: 4.7rem;
+    color:  #d13434;
+ }
+
+ form {
+    display: flex;
+    padding: 0;
+    width: 36.7vh;
+    height: 2rem;
+    margin-left: 2rem;
+ }
+input {
+    padding: 0.5rem;
+    outline: none;
+    height: 2rem;
+   margin-bottom: 2rem;
+    
+}
+img {
+    width: 100%;
+    display: block;
+}
+#circle {
+    cursor: pointer;
+    font-size: 1.55rem;
+    height: 5rem;
+    width: 5rem;
+    margin-left: 5rem;
+    border: 4px solid black;
+    box-shadow: 2px 1px 0.5px 0.5px;
+    background: linear-gradient(
+        to bottom,
+            red 50%,
+            #ffff 50%
+    );
+    border-radius: 50%;
+}
+li {
+    list-style: none;
+}
+body {
+    background-color: rgb(229, 229, 229);
+}
