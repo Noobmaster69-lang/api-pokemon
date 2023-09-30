@@ -27,10 +27,10 @@ const PokeCard = ( { url } ) => {
         </header>
         <section className="resident_body">
             <h3 className="resident_name">{pokemon?.name}</h3>
-            <ul className="indefinido">
+            <ul className={`indefinido  $key={typeInfo.type.name}`}>
                 {
                 pokemon?.types.map(typeInfo => (
-                    <li key={typeInfo.type.url}> type: {typeInfo.type.name}</li>
+                    <li id="li2" key={typeInfo.type.url}> type: {typeInfo.type.name}</li>
                 ))
                 }
             </ul>

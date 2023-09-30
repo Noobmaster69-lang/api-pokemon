@@ -11,7 +11,14 @@
  margin-top: 20px;
  margin-bottom: -35px;   
 }
-
+#btnM{
+    padding: 10rem;
+    max-width: 300px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    
+}
 #segundo {
     display: flex;
     padding: 2rem;
@@ -96,8 +103,11 @@ article {
     padding: auto;
 }
 .pokedex2 {
-    display: block;
-    width: 10rem;
+  display: flex;
+  margin-left: 3px;
+  max-width: 300px;
+  width: 180px;
+  
 }
 .resident {
     display: grid;
@@ -108,6 +118,7 @@ article {
     color: white;
     border-radius: 1em;
     overflow: hidden;
+    border: 5px solid coral;
 }
 .resident_header {
     position: relative;
@@ -119,6 +130,8 @@ article {
     text-align: center;
     margin-bottom: 0.7em;
     font-weight: 700;
+    font-size: 30px;
+    color: antiquewhite;
 }
 .resident_separator {
     margin-bottom: 0.5em;
@@ -172,4 +185,18 @@ select{
     height: 40px;
     border-radius: 10px;
     padding: 10px;
+}
+#li2 {       
+    padding: 2px;
+    justify-items: center;
+}
+.link-name{
+    color:blue;
+    border: 1px solid red;
+}
+.grass {
+    background-color: 2px green;
+}
+.fire {
+    background-color: firebrick;
 }
