@@ -11,14 +11,9 @@ import musica from "./assets/musica/pokemon-music.mp3"
 function App() {
 
   const [playSound] = useSound(musica)
-
+  const [stop] = useSound("undefined")  
   return (
-    <div>
-       <p id='btnM'>
-      <button onClick={playSound}>Music</button>
-      <button onClick={stop}>silence</button>
-
-      </p>
+    <div> 
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route element={<ProtectedRoutes />}>
